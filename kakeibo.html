@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>家計簿アプリ</title>
+    <link rel="stylesheet" href="kakeibo.css" />
+  </head>
+  <body>
+    <h1>家計簿アプリ</h1>
+
+    <input type="date" id="date" />
+    <input type="text" id="item" placeholder="項目（例: 食費）" />
+    <input type="number" id="amount" placeholder="金額" />
+    <button onclick="addEntry()">追加</button>
+
+    <ul id="list"></ul>
+
+    <h2>合計: <span id="total">0</span> 円</h2>
+
+    <script src="kakeibo.js"></script>
+  </body>
+</html>
