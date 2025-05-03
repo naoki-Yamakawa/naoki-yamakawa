@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   padding: 20px;
   text-align: center;
-  background: #87CEEB;
+  background: linear-gradient(to top, #89f7fe, #66a6ff);
 }
 
 input {
